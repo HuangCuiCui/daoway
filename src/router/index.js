@@ -7,8 +7,9 @@ import home from "../components/home/home.vue"
 import seller from '../components/seller/seller.vue'
 import downloadApp from "../components/downloadAPP/downloadApp.vue"
 import sellerTerm from "../components/sellerTerm/sellerTerm.vue"
-import server_join from "../components/server_join/server_join.vue"
+import loginUser from "../components/loginUser/loginUser.vue"
 import information from "../components/information/information.vue"
+import registerUser from "../components/registerUser/registerUser.vue"
 
 Vue.use(VueRouter)
 /*路由器模块*/
@@ -36,12 +37,16 @@ export default new VueRouter({
       component:sellerTerm
     },
     {
-      path:'/server_join',
-      component:server_join
+      path:'/loginUser',
+      component:loginUser
     },
     {
       path:'/information',
       component:information
+    },
+    {
+      path:'/registerUser',
+      component:registerUser
     }
   ]
 })
