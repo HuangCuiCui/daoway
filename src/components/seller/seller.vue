@@ -9,7 +9,6 @@
               <ul class="ulactivety">
                 <router-link to="/sellerTerm" target="_blank">
                   <li id="800ff6443dd043b39c7f17ede21dfc9d">
-
                       <img  class="img-width" src="http://img.daoway.cn/img/2017/01/20/c3a2490e-04fc-43de-9a05-8a62dce47f57_thumb.jpg">
                       <p class="img-p">
                         <img src="../img/home1.png">
@@ -162,6 +161,9 @@
     margin-bottom: 10px;
     background: #fff;
     cursor: pointer;
+  }
+  .centerleft ul li:hover{
+    box-shadow: 5px 5px 15px #ccc;
   }
   .centerleft ul li img{
     vertical-align: middle;

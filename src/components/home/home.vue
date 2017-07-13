@@ -31,67 +31,105 @@
           </div>
         </div>
         <div class="container">
+          <!--二级菜单-->
           <div id="banner-nav">
-            <ul>
+            <ul class="list-left">
               <li class="nav-name">
-                <a href="#">
+                <router-link to="/serverList">
                   <i>家庭保洁</i>
-                  <img src="../img/right.png" alt="">
-                </a>
+                </router-link>
+                <div class="h-before"></div>
+                <div class="h-after"></div>
+                <ul class="list-right">
+                  <li><a target="_blank">小时工</a></li>
+                  <li><a target="_blank">开荒保洁</a></li>
+                  <li><a target="_blank">擦玻璃</a></li>
+                  <li><a target="_blank">深度保洁</a></li>
+                  <li><a target="_blank">家居养护</a></li>
+                  <li><a target="_blank">杀虫灭鼠</a></li>
+                </ul>
+
               </li>
               <li class="nav-name">
                 <a href="#">
                   <i>上门按摩</i>
-                  <img src="../img/right.png" alt="">
                 </a>
+                <div class="h-before"></div>
+                <div class="h-after"></div>
+                <ul class="list-right">
+                  <li><a href="#" target="_blank">中医推拿</a></li>
+                  <li><a href="#" target="_blank">油压SPA</a></li>
+                  <li><a href="#" target="_blank">局部理疗</a></li>
+                  <li><a href="#" target="_blank">足疗套餐</a></li>
+                  <li><a href="#" target="_blank">美体塑形</a></li>
+                  <li><a href="#" target="_blank">母婴保健</a></li>
+                </ul>
               </li>
               <li class="nav-name">
                 <a href="#">
                   <i>上门维修</i>
-                  <img src="../img/right.png" alt="">
                 </a>
+                <div class="h-before"></div>
+                <div class="h-after"></div>
+                <ul class="list-right">
+                  <li><a href="#" target="_blank">手机维修</a></li>
+                  <li><a href="#" target="_blank">家电维修</a></li>
+                  <li><a href="#" target="_blank">电脑维修</a></li>
+                  <li><a href="#" target="_blank">家庭维修</a></li>
+                  <li><a href="#" target="_blank">管道疏通</a></li>
+                  <li><a href="#" target="_blank">开锁换锁</a></li>
+                  <li><a href="#" target="_blank">安装打孔</a></li>
+                  <li><a href="#" target="_blank">空气净化</a></li>
+                </ul>
               </li>
               <li class="nav-name">
                 <a href="#">
                   <i>家电清洗</i>
-                  <img src="../img/right.png" alt="">
                 </a>
+                <div class="h-before"></div>
+                <div class="h-after"></div>
               </li>
               <li class="nav-name">
                 <a href="#">
                   <i>衣物洗护</i>
-                  <img src="../img/right.png" alt="">
                 </a>
+                <div class="h-before"></div>
+                <div class="h-after"></div>
               </li>
               <li class="nav-name">
                 <a href="#">
                   <i>搬家速运</i>
-                  <img src="../img/right.png" alt="">
                 </a>
+                <div class="h-before"></div>
+                <div class="h-after"></div>
               </li>
               <li class="nav-name">
                 <a href="#">
                   <i>美容美妆</i>
-                  <img src="../img/right.png" alt="">
                 </a>
+                <div class="h-before"></div>
+                <div class="h-after"></div>
               </li>
               <li class="nav-name">
                 <a href="#">
                   <i>鲜花绿植</i>
-                  <img src="../img/right.png" alt="">
                 </a>
+                <div class="h-before"></div>
+                <div class="h-after"></div>
               </li>
               <li class="nav-name">
                 <a href="#">
                   <i>上门医护</i>
-                  <img src="../img/right.png" alt="">
                 </a>
+                <div class="h-before"></div>
+                <div class="h-after"></div>
               </li>
               <li class="nav-name">
                 <a href="#">
                   <i>养车用车</i>
-                  <img src="../img/right.png" alt="">
                 </a>
+                <div class="h-before"></div>
+                <div class="h-after"></div>
               </li>
             </ul>
           </div>
@@ -118,7 +156,7 @@
                     <div class="description">服务内容：家庭保洁服务，2小时起订。（云家政暂时不提供带保...</div>
                     <div class="price">
                       <span class="number">30</span>元/小时
-                                <span class="btn">查看详情</span>
+                      <span class="btn"><router-link to="/information">查看详情</router-link></span>
                     </div>
                   </div>
                 </a>
@@ -129,7 +167,7 @@
                     <div class="description">服务内容：1.室内保洁服务，2小时起订，服务商携带清洁装备...</div>
                     <div class="price">
                       <span class="number">29</span>元/小时
-                                <span class="btn">查看详情</span>
+                      <span class="btn"><router-link to="/information">查看详情</router-link></span>
                     </div>
                   </div>
                 </a>
@@ -140,7 +178,7 @@
                     <div class="description">服务内容：1.家庭保洁服务，2小时起订，服务商携带清洁装备...</div>
                     <div class="price">
                       <span class="number">35</span>元/小时
-                                <span class="btn">查看详情</span>
+                       <span class="btn"><router-link to="/information">查看详情</router-link></span>
                     </div>
                   </div>
                 </a>
@@ -151,7 +189,7 @@
                     <div class="description">温馨提示：若需要女保洁员请在备注上标明，谢谢服务内容：1...</div>
                     <div class="price">
                       <span class="number">149</span>元/3小时
-                                <span class="btn">查看详情</span>
+                       <span class="btn"><router-link to="/information">查看详情</router-link></span>
                     </div>
                   </div>
                 </a>
@@ -162,7 +200,7 @@
                     <div class="description">服务内容：日常保洁，2个小时起订，阿姨携带工具包括，毛巾，...</div>
                     <div class="price">
                       <span class="number">35</span>元/小时
-                                <span class="btn">查看详情</span>
+                       <span class="btn"><router-link to="/information">查看详情</router-link></span>
                     </div>
                   </div>
                 </a>
@@ -190,7 +228,7 @@
                     <div class="description">时长：90分钟服务姿势：卧姿适用介绍：适用于工作繁忙...</div>
                     <div class="price">
                       <span class="number">135</span>元/次
-                                <span class="btn">查看详情</span>
+                       <span class="btn"><router-link to="/information">查看详情</router-link></span>
                     </div>
                   </div>
                 </a>
@@ -201,7 +239,7 @@
                     <div class="description">服务时长：100分钟服务姿势：仰卧 俯卧适用人群：适...</div>
                     <div class="price">
                       <span class="number">498</span>元/项
-                                <span class="btn">查看详情</span>
+                      <span class="btn"><router-link to="/information">查看详情</router-link></span>
                     </div>
                   </div>
                 </a>
@@ -212,7 +250,7 @@
                     <div class="description">给予您极致的享受！服务时长：120分钟服务姿势：卧姿...</div>
                     <div class="price">
                       <span class="number">488</span>元/项
-                                <span class="btn">查看详情</span>
+                      <span class="btn"><router-link to="/information">查看详情</router-link></span>
                     </div>
                   </div>
                 </a>
@@ -223,7 +261,7 @@
                     <div class="description">时长：90分钟服务姿势：卧姿适用介绍：适用于工作繁忙...</div>
                     <div class="price">
                       <span class="number">239</span>元/次
-                                <span class="btn">查看详情</span>
+                      <span class="btn"><router-link to="/information">查看详情</router-link></span>
                     </div>
                   </div>
                 </a>
@@ -234,7 +272,7 @@
                     <div class="description">时长：60分钟服务姿势：卧姿适用介绍：适用机关工作、...</div>
                     <div class="price">
                       <span class="number">128</span>元/次
-                                <span class="btn">查看详情</span>
+                      <span class="btn"><router-link to="/information">查看详情</router-link></span>
                     </div>
                   </div>
                 </a>
@@ -274,7 +312,6 @@
     height: 420px;
   }
   #banner-nav{
-    padding: 0 20px;
     background:  #757881;
     position: absolute;
     top:0;
@@ -289,22 +326,72 @@
     color: #fff;
     font-size: 16px;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 40px;
   }
   #banner-nav .nav-name a{
     display: inline-block;
     vertical-align: middle;
-    width: 100%;
   }
   .nav-name a i{
-    margin-right: 15px;
     font-weight: bold;
     color: #fff;
     display: inline-block;
     width: 70px;
     font-style: normal;
   }
-
+  #banner-nav .list-left .list-right{
+    position: absolute;
+    top:0;
+    left: 180px;
+    background: rgba(255,255,255,0.7);
+    width: 160px;
+    margin-top: 0;
+    display: none;
+  }
+  .list-right li{
+    text-align: center;
+  }
+  .list-right li>a:hover{
+    text-decoration: none;
+    color: #e94840;
+  }
+  .list-left .nav-name .h-before{
+    display: inline-block;
+    width: 6px;
+    height: 11px;
+    background: url("../img/right.png") no-repeat;
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+  }
+  .list-left .nav-name .h-after{
+    width: 10px;
+    height: 10px;
+    background: white;
+    transform: rotate(40deg);
+    opacity: 0.5;
+    float: right;
+    margin-top: 15px;
+    margin-right: -6px;
+    display: none;
+  }
+  .list-left li:hover .h-before{
+    display: none;
+  }
+  .list-left li:hover .h-after{
+    display: block;
+  }
+  .list-left li:hover{
+    background: #60646D;;
+  }
+  /*.list-left>li:hover .list-right{
+      color: #1b6d85;
+      display: block;
+  }*/
+  #banner-nav .list-left li.nav-name:hover > ul.list-right{
+    /*background-color: red;*/
+    display: block;
+  }
   /*图片分隔区*/
   .servicebody{
     width: 100%;
@@ -361,6 +448,9 @@
     cursor: pointer;
     height: 345px;
   }
+  .member-container:hover{
+    box-shadow: 5px 5px 15px #ccc;
+  }
   .member-container img{
     width: 210px;
     height: 210px;
@@ -393,6 +483,9 @@
     font-weight: 600;
     line-height: 20px;
     color: #fb474f;
+  }
+  .member-container .price a{
+    color: #fff;
   }
   .price .number{
     font-size: 20px;

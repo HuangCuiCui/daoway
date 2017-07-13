@@ -310,6 +310,9 @@
     background: #fff;
     overflow: hidden;
   }
+  .ctop:hover{
+    background: #fbf8f8;
+  }
   .ctop img {
     width: 150px;
     height: 150px;
@@ -542,7 +545,7 @@
     height: 290px;
   }
   .quickmark2{
-    height: 240px;
+    height: 290px;
     margin-top: 0;
     padding-top: 50px;
     background:url(../img/fuwushang2_07.jpg) no-repeat;

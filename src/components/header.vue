@@ -1,6 +1,6 @@
 <template>
     <div>
-      <header id="d_header" class="transparent">
+      <header id="d_header" class="transparent" ref="heightTop">
         <div class="header_nav">
           <div class="container">
             <div class="contain-nav">
@@ -18,12 +18,12 @@
                   </a>
                 </li>
                 <li class="nav_item"><router-link to="/">首页</router-link></li>
-                <li class="nav_item"><router-link to="/downloadApp">下载APP</router-link></li>
+                <li class="nav_item"><router-link to="/">下载APP</router-link></li>
                 <li class="nav_item"><router-link to="/seller">服务商</router-link></li>
-                <li class="nav_item"><router-link to="/server_join">商家入驻</router-link></li>
+                <li class="nav_item"><router-link to="/">商家入驻</router-link></li>
                 <li class="nav_item"><a href="#">关于我们</a></li>
                 <li class="nav_item">
-                  <a id="login" href="#">商家登录</a>
+                  <router-link id="login" to="/loginUser" target="_blank">商家登录</router-link>
                 </li>
               </ul>
             </div>
@@ -34,7 +34,9 @@
 </template>
 
 <script>
-    export default {}
+  export default {
+
+  }
 </script>
 
 <style>
